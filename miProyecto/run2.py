@@ -1,5 +1,5 @@
 '''
-file: run.py
+file: run2.py
 autor: shomira
 '''
 from misvariables import *
@@ -13,9 +13,13 @@ nota = int(nota)
 nota2 = int(nota2)
 
 if nota >= 18:
-	print(mensaje)
+	print( "%s, su valor de nota es %d" % (mensaje, nota))
+else:
+	print( "%s - %d" % (mensaje2, nota))
 
 if nota2 >= 18 :
 	print(mensaje)
+else:
+	print(mensaje2)
 
 
