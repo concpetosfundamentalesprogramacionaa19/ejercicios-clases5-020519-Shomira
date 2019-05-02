@@ -32,8 +32,16 @@ if (edad <= 20) and (modalidad == 1):
 	costoSeguro = 100 * 10
 	costoMatricula = costoMatricula + costoSeguro
 else:
+	costoSeguro = 150 * 10
+	costoMatricula = costoMatricula + costoSeguro
+	
+if (edad <= 20) and (modalidad == 2):
+	costoSeguro = 100 * 8
+	costoMatricula = costoMatricula + costoSeguro
+else:
 	costoSeguro = 150 * 8
-	costoMatricula = costoMatricula +costoSeguro
+	costoMatricula = costoMatricula + costoSeguro
+
 
 
 print("Estimad@ %s El costo de su matricula es %d" %( nombre, costoMatricula))
